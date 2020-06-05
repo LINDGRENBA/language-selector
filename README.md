@@ -41,20 +41,20 @@ If you're interested becoming a programmer, but are overwhelmed by the vast numb
 
 ## Specifications
 
-#### Spec 
+#### Spec 1
 * Behavior: Program gathers user input.
 * Input Example: User selects 'a'.
 * Output Example: Console.log(userinput) displays 'a'.
 
-#### Spec 
-* Behavior: 
-* Input Example: 
-* Output Example: 
+#### Spec 2
+* Behavior: Program returns user input a, b or c as 0, 1 or 2 (in number form) respectively.
+* Input Example: b
+* Output Example: 1
 
-#### Spec 
-* Behavior: 
-* Input Example: 
-* Output Example: 
+#### Spec 3
+* Behavior: Program adds user input and returns total
+* Input Example: a, a, b, c, c, a - (equivalent numbers = 0, 0, 1, 2, 2, 0)
+* Output Example: 5
 
 #### Spec 
 * Behavior: 
