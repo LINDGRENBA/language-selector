@@ -3,16 +3,12 @@
 #### Programming Language Quiz - Independent Project for Epicodus, 06.05.2020
 
 ## By Brittany Lindgren
-<br>
 
 ## Description
----
 
 If you're interested becoming a programmer, but are overwhelmed by the vast number of languages to choose from, you're not alone. Take this quiz to determine which language might be right for you.  
-<br>
 
 ## Setup/Installation Requirements
----
 
 1. Follow this [link to the project repository](https://github.com/LINDGRENBA/language-selector) on GitHub.
 
@@ -36,8 +32,7 @@ If you're interested becoming a programmer, but are overwhelmed by the vast numb
 
 * You do not need to run a server to view this document.
 
-* No additional code is necessary to view this project.  
-<br>  
+* No additional code is necessary to view this project.   
 
 ## Specifications
 
@@ -63,19 +58,14 @@ If you're interested becoming a programmer, but are overwhelmed by the vast numb
 
 
 ## Known Bugs
----
 
 There are no known bugs at this time.  
-<br>
 
 ## Support and contact details
----
 
 Please feel free to contact me through GitHub (username: LINDGRENBA) with any questions, ideas or concerns.  
-<br>
 
 ## Technologies Used
----
 
 * HTML5
 * CSS3
@@ -83,10 +73,8 @@ Please feel free to contact me through GitHub (username: LINDGRENBA) with any qu
 * JavaScript
 * jQuery v-3.5.0
 * Visual Studio Code  
-<br>
 
 ### License
----
 
 *This site is licensed under the MIT license.*
 
