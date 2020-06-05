@@ -35,6 +35,7 @@ $(document).ready(function() {
 
     let result = addUserPoints(selectedMeal, selectedLocation, selectedOccupation, selectedAnimal, selectedMusicGroup, selectedSalary, selectedCelebrity, selectedActivity);
 
+    $("div#results > div").hide();
     $("span.user-name").text(userFirstName);
     $("div#results").show();
     $("." + result).slideDown();
