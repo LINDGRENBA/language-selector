@@ -1,17 +1,7 @@
-Create an application for people interested in coding to decide which language they should learn first.
-
-Choose at least three languages that prospective learners should consider.
-
-asks future students a series of questions about themselves and provides a language suggestion based on their answers.
-
-Include a minimum of 5 survey questions.
-Offer a minimum of 3 different language suggestions.
 Don't forget regular Git commits and a detailed README. Commit messages should always be on-topic and professional in tone.
 
-Site uses branching to return the result.
 jQuery is used to show and hide the result after questions are answered and submitted. (Tip: test your app several times with different answers.)
-Form gathers input from the user.
-Variable names are descriptive of what they represent.
+
 Web page is styled using Bootstrap and custom CSS.
 The project is in a presentable, portfolio-quality state.
 Required functionality is in place by the Friday deadline.

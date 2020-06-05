@@ -33,6 +33,8 @@ $(document).ready(function() {
 
     let result = addUserPoints(selectedMeal, selectedLocation, selectedOccupation, selectedAnimal, selectedMusicGroup, selectedSalary, selectedCelebrity, selectedActivity);
 
+    $("div#results").show();
+    $("." + result).slideDown();
 
   });
 });
