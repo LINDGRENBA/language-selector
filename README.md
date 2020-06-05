@@ -75,6 +75,11 @@ If you're interested becoming a programmer, but are overwhelmed by the vast numb
 * Input Example: "python"
 * Output Example: Result: You should learn python!
 
+#### Spec 7
+* Behavior: The program returns the value of the user's answers as a number score
+* Input Example: a, a, b, a, c
+* Output Example: Your score: 3
+
 
 ## Known Bugs
 

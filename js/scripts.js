@@ -14,7 +14,7 @@ let addUserPoints = function(mealPoints, locationPoints, occupationPoints, anima
     language = "csharp";
   }
 
-  return language;
+  return [language, pointTotal];
 };
 
 // user interface logic
@@ -37,8 +37,9 @@ $(document).ready(function() {
 
     $("div#results > div").hide();
     $("span.user-name").text(userFirstName);
+    $("span.score").text(result[1]);
     $("div#results").show();
-    $("." + result).slideDown();
+    $("." + result[0]).slideDown();
 
   });
 });
