@@ -1,8 +1,21 @@
 // BACKEND LOGIC
 let addUserPoints = function(mealPoints, locationPoints, occupationPoints, animalPoints, musicGroupPoints, salaryPoints, celebrityPoints, activityPoints) {
-  return mealPoints + locationPoints + occupationPoints + animalPoints + musicGroupPoints + salaryPoints + celebrityPoints + activityPoints;
-};
+  let pointTotal = mealPoints + locationPoints + occupationPoints + animalPoints + musicGroupPoints + salaryPoints + celebrityPoints + activityPoints;
+  let language;
+  // refactor to complete above step using loops and arrays
 
+  if (pointTotal >= 0 && pointTotal < 5) {
+    language = "python";
+  } else if (pointTotal >= 5 && pointTotal < 9) {
+    language = "ruby";
+  } else if (pointTotal >= 9 && pointTotal < 13) {
+    language = "swift";
+  } else {
+    language = "csharp";
+  }
+
+  return language;
+};
 
 // USER INTERFACE LOGIC
 $(document).ready(function() {
@@ -18,7 +31,7 @@ $(document).ready(function() {
     let selectedCelebrity = parseInt($("input:radio[name=celebrity]:checked").val());
     let selectedActivity = parseInt($("input:radio[name=activity]:checked").val());
 
-    let total = addUserPoints(selectedMeal, selectedLocation, selectedOccupation, selectedAnimal, selectedMusicGroup, selectedSalary, selectedCelebrity, selectedActivity);
+    let result = addUserPoints(selectedMeal, selectedLocation, selectedOccupation, selectedAnimal, selectedMusicGroup, selectedSalary, selectedCelebrity, selectedActivity);
 
 
   });

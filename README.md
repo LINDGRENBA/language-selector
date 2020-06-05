@@ -47,12 +47,12 @@ If you're interested becoming a programmer, but are overwhelmed by the vast numb
 * Output Example: 1
 
 #### Spec 3
-* Behavior: Program adds user input and returns total
+* Behavior: Program adds user input and returns total.
 * Input Example: a, a, b, c, c, a - (equivalent numbers = 0, 0, 1, 2, 2, 0)
 * Output Example: 5
 
-#### Spec 
-* Behavior: Program checks for specific range of numbers
+#### Spec 4
+* Behavior: Program checks for specific range of numbers.
 * Input Example: 0-4
 * Output Example: "Low"
 
@@ -65,10 +65,15 @@ If you're interested becoming a programmer, but are overwhelmed by the vast numb
 * Input Example: 13-16
 * Output Example: "Extreme"
 
-#### Spec 
-* Behavior: 
-* Input Example: 
-* Output Example: 
+#### Spec 5
+* Behavior: Program returns a string for a programming language depending on the range of numbers.
+* Input Example: 0-4
+* Output Example: "Python"
+
+#### Spec 6
+* Behavior: If program returns "python", result for python shows in index.html
+* Input Example: "python"
+* Output Example: Result: You should learn python!
 
 
 ## Known Bugs
