@@ -6,7 +6,7 @@
 
 ## Description
 
-If you're interested becoming a programmer, but are overwhelmed by the vast number of languages to choose from, you're not alone. Take this quiz to determine which language might be right for you.  
+If you're interested becoming a programmer, but are overwhelmed by the vast number of languages to choose from, you're not alone. Take this quiz to determine which language might be right for you.  If you'd like to try it out, you can click the following link to [take the quiz](https://lindgrenba.github.io/language-selector/).
 
 ## Setup/Installation Requirements
 
