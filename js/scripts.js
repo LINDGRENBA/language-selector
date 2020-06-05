@@ -22,6 +22,7 @@ $(document).ready(function() {
   $("#quiz-form").submit(function(event) {
     event.preventDefault();
 
+    let userFirstName = $("#first-name").val();
     let selectedMeal = parseInt($("input:radio[name=meal]:checked").val());
     let selectedLocation = parseInt($("input:radio[name=location]:checked").val());
     let selectedOccupation = parseInt($("input:radio[name=occupation]:checked").val());
@@ -34,6 +35,7 @@ $(document).ready(function() {
 
     let result = addUserPoints(selectedMeal, selectedLocation, selectedOccupation, selectedAnimal, selectedMusicGroup, selectedSalary, selectedCelebrity, selectedActivity);
 
+    $("span.user-name").text(userFirstName);
     $("div#results").show();
     $("." + result).slideDown();
 
