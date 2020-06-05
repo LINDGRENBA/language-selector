@@ -30,6 +30,7 @@ $(document).ready(function() {
     let selectedSalary = parseInt($("input:radio[name=salary]:checked").val());
     let selectedCelebrity = parseInt($("input:radio[name=celebrity]:checked").val());
     let selectedActivity = parseInt($("input:radio[name=activity]:checked").val());
+    //refactor to hold user input in array? or pass as array to business logic?
 
     let result = addUserPoints(selectedMeal, selectedLocation, selectedOccupation, selectedAnimal, selectedMusicGroup, selectedSalary, selectedCelebrity, selectedActivity);
 
