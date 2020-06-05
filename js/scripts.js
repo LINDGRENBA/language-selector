@@ -1,4 +1,4 @@
-// BACKEND LOGIC
+// backend logic
 let addUserPoints = function(mealPoints, locationPoints, occupationPoints, animalPoints, musicGroupPoints, salaryPoints, celebrityPoints, activityPoints) {
   let pointTotal = mealPoints + locationPoints + occupationPoints + animalPoints + musicGroupPoints + salaryPoints + celebrityPoints + activityPoints;
   let language;
@@ -17,7 +17,7 @@ let addUserPoints = function(mealPoints, locationPoints, occupationPoints, anima
   return language;
 };
 
-// USER INTERFACE LOGIC
+// user interface logic
 $(document).ready(function() {
   $("#quiz-form").submit(function(event) {
     event.preventDefault();
@@ -38,7 +38,7 @@ $(document).ready(function() {
     $("div#results > div").hide();
     $("span.user-name").text(userFirstName);
     $("div#results").show();
-    $("." + result).slideDown();
+    $("." + result).slideUp();
 
   });
 });

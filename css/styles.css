@@ -43,6 +43,6 @@ footer {
   font-weight: bold;
 }
 
-/* #results, .python, .ruby, .swift, .csharp {
+#results, .python, .ruby, .swift, .csharp {
   display: none;
-} */
+}

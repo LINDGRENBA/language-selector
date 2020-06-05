@@ -78,7 +78,7 @@ If you're interested becoming a programmer, but are overwhelmed by the vast numb
 
 ## Known Bugs
 
-There are no known bugs at this time.  
+Range of 5 - 8 results in div#result displaying no information 
 
 ## Support and contact details
 
