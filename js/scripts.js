@@ -38,7 +38,7 @@ $(document).ready(function() {
     $("div#results > div").hide();
     $("span.user-name").text(userFirstName);
     $("div#results").show();
-    $("." + result).slideUp();
+    $("." + result).slideDown();
 
   });
 });
