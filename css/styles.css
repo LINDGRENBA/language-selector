@@ -27,7 +27,7 @@ header p {
   line-height: 2em;
 }
 
-h1, h3 {
+h1, h3, input #first-name {
   font-family: 'Oswald', sans-serif;
 }
 
