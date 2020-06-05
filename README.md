@@ -52,6 +52,20 @@ If you're interested becoming a programmer, but are overwhelmed by the vast numb
 * Output Example: 5
 
 #### Spec 
+* Behavior: Program checks for specific range of numbers
+* Input Example: 0-4
+* Output Example: "Low"
+
+* Input Example: 5-8
+* Output Example: "Medium"
+
+* Input Example: 9-12
+* Output Example: "High"
+
+* Input Example: 13-16
+* Output Example: "Extreme"
+
+#### Spec 
 * Behavior: 
 * Input Example: 
 * Output Example: 
