@@ -51,31 +51,17 @@ If you're interested becoming a programmer, but are overwhelmed by the vast numb
 * Input Example: a, a, b, c, c, a - (equivalent numbers = 0, 0, 1, 2, 2, 0)
 * Output Example: 5
 
-#### Spec 4
-* Behavior: Program checks for specific range of numbers.
-* Input Example: 0-4
-* Output Example: "Low"
-
-* Input Example: 5-8
-* Output Example: "Medium"
-
-* Input Example: 9-12
-* Output Example: "High"
-
-* Input Example: 13-16
-* Output Example: "Extreme"
-
-#### Spec 5
+#### Spec 6
 * Behavior: Program returns a string for a programming language depending on the range of numbers.
 * Input Example: 0-4
 * Output Example: "Python"
 
-#### Spec 6
+#### Spec 7
 * Behavior: If program returns "python", result for python shows in index.html
 * Input Example: "python"
 * Output Example: Result: You should learn python!
 
-#### Spec 7
+#### Spec 8
 * Behavior: The program returns the value of the user's answers as a number score
 * Input Example: a, a, b, a, c
 * Output Example: Your score: 3
