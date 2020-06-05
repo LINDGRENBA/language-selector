@@ -1,3 +1,48 @@
-#results, .python, .ruby, .swift, .csharp {
-  display: none;
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  background-image: url(../img/background.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header, .quiz, #results {
+  background: rgba(255, 255, 255, .9);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, .5);
+  padding: 50px;
+  margin-top: 50px;
+  border-radius: 3px;
+}
+
+header {
+  margin-top: 20px;
+}
+
+header p {
+  line-height: 2em;
+}
+
+.name-div {
+  max-width: 60%;
+}
+
+
+.btn {
+  margin-top: 50px;
+}
+
+footer {
+  text-align: center;
+  justify-content: center;
+  margin: 30px auto;
+  font-weight: bold;
+}
+
+/* #results, .python, .ruby, .swift, .csharp {
+  display: none;
+} */
