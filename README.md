@@ -37,7 +37,30 @@ If you're interested becoming a programmer, but are overwhelmed by the vast numb
 * You do not need to run a server to view this document.
 
 * No additional code is necessary to view this project.  
-<br>
+<br>  
+
+## Specifications
+
+#### Spec 
+* Behavior: Program gathers user input.
+* Input Example: User selects 'a'.
+* Output Example: Console.log(userinput) displays 'a'.
+
+#### Spec 
+* Behavior: 
+* Input Example: 
+* Output Example: 
+
+#### Spec 
+* Behavior: 
+* Input Example: 
+* Output Example: 
+
+#### Spec 
+* Behavior: 
+* Input Example: 
+* Output Example: 
+
 
 ## Known Bugs
 ---
