@@ -2,7 +2,6 @@
 let addUserPoints = function(mealPoints, locationPoints, occupationPoints, animalPoints, musicGroupPoints, salaryPoints, celebrityPoints, activityPoints) {
   let pointTotal = mealPoints + locationPoints + occupationPoints + animalPoints + musicGroupPoints + salaryPoints + celebrityPoints + activityPoints;
   let language;
-  // refactor to complete above step using loops and arrays
 
   if (pointTotal >= 0 && pointTotal < 5) {
     language = "python";
@@ -31,7 +30,6 @@ $(document).ready(function() {
     let selectedSalary = parseInt($("input:radio[name=salary]:checked").val());
     let selectedCelebrity = parseInt($("input:radio[name=celebrity]:checked").val());
     let selectedActivity = parseInt($("input:radio[name=activity]:checked").val());
-    //refactor to hold user input in array? or pass as array to business logic?
 
     let result = addUserPoints(selectedMeal, selectedLocation, selectedOccupation, selectedAnimal, selectedMusicGroup, selectedSalary, selectedCelebrity, selectedActivity);
 
@@ -39,7 +37,7 @@ $(document).ready(function() {
     $("span.user-name").text(userFirstName);
     $("span.score").text(result[1]);
     $("div#results").show();
-    $("." + result[0]).slideDown();
+    $("." + result[0]).fadeToggle();
 
   });
 });

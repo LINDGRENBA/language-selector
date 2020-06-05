@@ -88,6 +88,10 @@ If you're interested becoming a programmer, but are overwhelmed by the vast numb
 * Results in div#result displaying no information on submission of form.  
  *_Solution: changed scripts.js `$("." + result).slideUp();` to `$("." + result).slideDown();`_
 
+## Future Goals
+
+1. Refactor user interface and business logic to use arrays and loops to store radio button values and run addUserPoints function.
+
 ## Support and contact details
 
 Please feel free to contact me through GitHub (username: LINDGRENBA) with any questions, ideas or concerns.  
