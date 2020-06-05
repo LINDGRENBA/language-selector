@@ -20,17 +20,18 @@
       <form action="#" id="quiz-form">
         <div class="row">
           <div class="form-group col-md-6">
-            <label for="first-name">Enter your first name:</label>
+            <label for="first-name">Please enter your first name:</label>
             <input type="text" id="first-name" class="form-control" required>
           </div>
         </div>
+        <p>*You must select one answer for each question in order to submit the form.</p>
         <div class="row">
           <div class="col-md-4 col-sm-12">
             <h3>Question #1</h3>
             <p>What is your favorite meal of the day?</p>
             <div class="radio">
               <label>
-                <input type="radio" name="meal" value="0" checked>
+                <input type="radio" name="meal" value="0" checked required>
                 a) Second breakfast
               </label>
             </div>
@@ -52,7 +53,7 @@
             <p>Where would you most like to travel to?</p>
             <div class="radio">
               <label>
-                <input type="radio" name="location" value="0">
+                <input type="radio" name="location" value="0" required>
                 a) Chiang Mai, Thailand
               </label>
             </div>
@@ -74,7 +75,7 @@
             <p>As a child, which of these did you most want to be when you grew up?</p>
             <div class="radio">
               <label>
-                <input type="radio" name="occupation" value="0">
+                <input type="radio" name="occupation" value="0" required>
                 a) An astronaut
               </label>
             </div>
@@ -98,7 +99,7 @@
             <p>Which animal do you like best?</p>
             <div class="radio">
               <label>
-                <input type="radio" name="animal" value="0">
+                <input type="radio" name="animal" value="0" required>
                 a) The majestic (but very dangerous) hippo
               </label>
             </div>
@@ -120,7 +121,7 @@
             <p>What is your favorite music group from the 90s?</p>
             <div class="radio">
               <label>
-                <input type="radio" name="music-group" value="0">
+                <input type="radio" name="music-group" value="0" required>
                 a) Pearl Jam
               </label>
             </div>
@@ -142,7 +143,7 @@
             <p>Which salary range is most ideal to you?</p>
             <div class="radio">
               <label>
-                <input type="radio" name="salary" value="0">
+                <input type="radio" name="salary" value="0" required>
                 a) $200,000+: I want to be a modern day Rockefeller
               </label>
             </div>
@@ -166,7 +167,7 @@
             <p>Which famous person would you like to spend the day with?</p>
             <div class="radio">
               <label>
-                <input type="radio" name="celebrity" value="0">
+                <input type="radio" name="celebrity" value="0" required>
                 a) Donald Glover
               </label>
             </div>
@@ -188,7 +189,7 @@
             <p>What is one thing you think might be fun, but have been too afraid to try?</p>
             <div class="radio">
               <label>
-                <input type="radio" name="activity" value="0">
+                <input type="radio" name="activity" value="0" required>
                 a) Skydiving
               </label>
             </div>
